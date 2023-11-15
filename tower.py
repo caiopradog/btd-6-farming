@@ -4,7 +4,7 @@ from config import keybinds, names
 
 class Tower:
     def __init__(self, name, tower, coords, level="000"):
-        pyinput.PAUSE = 0.05
+        pyinput.PAUSE = 0.025
         self.name = name
         self.tower = tower
         self.x = coords[0]
@@ -21,7 +21,7 @@ class Tower:
         return next(keybind["keybind"] for keybind in keybinds.MONKEY_KEYBINDS if keybind['tower'] == self.tower)
 
     def set_tier(self, level):
-        pyinput.PAUSE = 0.05
+        pyinput.PAUSE = 0.025
         pyinput.click(self.x, self.y)
         paths = [names.TOP_PATH, names.MIDDLE_PATH, names.BOTTOM_PATH]
         for path, tier in enumerate(level):
@@ -30,7 +30,7 @@ class Tower:
         pyinput.press('esc')
 
     def upgrade(self, path, level):
-        pyinput.PAUSE = 0.05
+        pyinput.PAUSE = 0.025
         presses = int(level) - int(self.upgrades[path])
         pyinput.press(keybinds.UPGRADE_KEYBINDS[path], presses=presses)
         self.upgrades[path] = level

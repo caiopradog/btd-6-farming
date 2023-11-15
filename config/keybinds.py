@@ -30,5 +30,6 @@ MONKEY_KEYBINDS = [
     {"tower": names.ENGINEER_MONKEY, "keybind": 'l'},
     {"tower": names.SPIKE_FACTORY, "keybind": 'j'},
     {"tower": names.MONKEY_VILLAGE, "keybind": 'k'},
+    {"tower": names.BEAST_HANDLER, "keybind": 'i'},
     {"tower": names.HERO, "keybind": 'u'},
 ]

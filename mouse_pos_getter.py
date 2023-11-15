@@ -9,7 +9,7 @@ last_selected_monkey = None
 def on_click(x, y, button, pressed):
     global last_selected_monkey
     if pressed and last_selected_monkey is not None:
-        print(last_selected_monkey, x - 1920, y)
+        print(last_selected_monkey, f'({x}, {y})')
         last_selected_monkey = None
 
 
@@ -18,7 +18,7 @@ def on_press(key):
     key = str(key).replace("'", "")
     monkey = next((keybind['tower'] for keybind in keybinds.MONKEY_KEYBINDS if keybind['keybind'] == key), None)
     if monkey is None:
-        returns
+        return
     last_selected_monkey = monkey
 
 

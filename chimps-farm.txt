@@ -1,0 +1,32 @@
+Start of Game:
+Dart Monkey 1 730 661
+Monkey Sub 1 1083 690
+
+Dart Monkey 2 681 702
+Hero 876 444
+Druid 1 797 439
+Druid 2 950 448
+Druid 3 724 421
+
+Monkey Sub 1 -> 200
+Dart Monkey 1 -> 002
+Monkey Sub 1 -> 203
+
+Druid 4 802 370
+Druid 5 910 386
+420 Alchemist 1 1016 664
+Druid 6 987 380
+220 Monkey Village 875 294
+
+Druids -> 014
+420 Alchemist 2 695 364
+320 Alchemist 3 762 318
+Druid 1 -> 015
+
+Monkey Village -> 230
+Alchemist 3 -> 420
+
+Spike Factory -> 025
+024 Glue Gunner 713 280
+420 Sniper Monkey 938 232
+402 Ice Monkey 573 483

@@ -21,6 +21,7 @@ BANANA_FARM = "Banana Farm"
 ENGINEER_MONKEY = "Engineer Monkey"
 SPIKE_FACTORY = "Spike Factory"
 MONKEY_VILLAGE = "Monkey Village"
+BEAST_HANDLER = "Beast Handler"
 HERO = "Hero"
 
 # Path Names
@@ -33,6 +34,8 @@ WINDOW_TITLE = "BloonsTD6"
 MAPS = {
     "beginner": [
         "Monkey Meadow",
+        "In The Loop",
+        "Middle of the Road",
         "Tree Stump",
         "Town Center",
         "One Two Tree",
@@ -47,7 +50,6 @@ MAPS = {
         "Park Path",
         "Alpine Run",
         "Frozen Over",
-        "In The Loop",
         "Cubism",
         "Four Circles",
         "Hedge",
@@ -55,6 +57,8 @@ MAPS = {
         "Logs",
     ],
     "intermediate": [
+        "Water Park",
+        "Polyphemus",
         "Covered Garden",
         "Quarry",
         "Quiet Street",
@@ -76,6 +80,8 @@ MAPS = {
         "Spice Islands",
     ],
     "advanced": [
+        "Dark Path",
+        "Erosion",
         "Midnight Mansion",
         "Sunken Columns",
         "X Factor",
@@ -92,6 +98,7 @@ MAPS = {
         "Underground",
     ],
     "expert": [
+        "Dark Dungeons",
         "Sanctuary",
         "Ravine",
         "Flooded Valley",
